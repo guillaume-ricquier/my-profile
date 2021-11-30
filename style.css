@@ -1,0 +1,40 @@
+/* Colors and fonts */
+
+body {
+	background: #D7E9F7;
+	color: rgb(50, 50, 50);
+	font-family: 'Pacifico', cursive;
+	font-size: 18px;
+}
+
+h1,h2 {
+	font-family: 'Lobster', cursive;
+}
+
+h1 {
+	color: #FF2626;
+	font-weight: 500;
+	font-size: 50px; 
+}
+h2 {
+	color: #77D970;
+	font-size: 25px;
+	font-weight: 500;
+}
+a {
+	text-decoration: inherit;
+	color: #09009B;
+	font-weight: bold;
+}
+a:hover {
+	color: #FFCA03;
+}
+
+/*Custom design with class */
+
+@média (max-width: 500px) {
+	.container{
+		width:  400px;
+	}
+}
+
